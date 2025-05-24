@@ -22,7 +22,7 @@ from langchain_experimental.tools import PythonREPLTool
 import config 
 
 st.set_page_config(page_title="Advanced Agentic System", layout="wide")
-st.title("🧠 Advanced Agentic System - House Sales, Web, SQL & Code Interpreter")
+st.title(" Advanced Agentic System - House Sales, Web, SQL & Code Interpreter")
 @st.cache_resource 
 def get_vector_db_instance():
     st.write("Initializing VectorDB and embedding model...")
